@@ -1,0 +1,9 @@
+# Development Environment Settings
+# Copy this file to application-dev.properties and fill in your actual credentials
+
+# PostgreSQL Database credentials
+spring.datasource.username=your_db_username
+spring.datasource.password=your_secure_password_min_16_chars
+
+# OAuth2 Client Secret
+OAUTH2_CLIENT_SECRET=your_client_secret_min_24_chars

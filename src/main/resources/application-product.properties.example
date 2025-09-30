@@ -1,0 +1,15 @@
+# Production Environment Settings
+# Copy this file to application-product.properties and fill in your actual credentials
+
+# PostgreSQL Database credentials
+spring.datasource.username=your_production_db_username
+spring.datasource.password=your_production_secure_password_min_16_chars
+
+# OAuth2 Client Secret
+OAUTH2_CLIENT_SECRET=your_production_client_secret_min_24_chars
+
+# Production-specific settings
+spring.jpa.hibernate.ddl-auto=validate
+logging.level.org.springframework.security=WARN
+logging.level.org.springframework.security.oauth2=WARN
+logging.level.org.hibernate.SQL=WARN
